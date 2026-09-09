@@ -1,0 +1,11 @@
+runpod_volume:
+  base_path: /runpod-volume/
+  checkpoints: models/checkpoints/
+  clip: models/clip/
+  clip_vision: models/clip_vision/
+  controlnet: models/controlnet/
+  loras: models/loras/
+  vae: models/vae/
+  ipadapter: models/ipadapter/
+  instantid: models/instantid/
+  insightface: models/insightface/
