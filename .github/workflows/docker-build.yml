@@ -26,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/studio-ai-comfyui:latest
+          tags: kakarusis/studio-ai-comfyui:latest
