@@ -23,7 +23,6 @@ RUN pip install -r ComfyUI-Impact-Pack/requirements.txt --no-cache-dir
 WORKDIR /comfyui
 
 # Network Volume의 instantid, insightface 등 비표준 폴더를 ComfyUI가 인식하도록 경로 등록
-# (RunPod 공식 이슈 #91에서 확인된 필수 설정 - 표준 폴더가 아닌 타입은 자동 인식 안 됨)
 COPY extra_model_paths.yaml /comfyui/extra_model_paths.yaml
 
 WORKDIR /
