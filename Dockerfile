@@ -34,3 +34,5 @@ RUN chmod +x /entrypoint.sh
 
 WORKDIR /
 ENTRYPOINT ["/entrypoint.sh"]
+# Tooling nodes - base64 이미지 로드 등
+RUN git clone https://github.com/Acly/comfyui-tooling-nodes.git
